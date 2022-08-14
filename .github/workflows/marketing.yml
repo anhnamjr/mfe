@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - master
-    paths:
+    path:
       - "packages/marketing/**"
 
-default:
+defaults:
   run:
     working-directory: "packages/marketing"
 
